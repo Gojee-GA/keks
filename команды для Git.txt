@@ -1,0 +1,21 @@
+git config --global user.name "Алиса"
+
+git config --global user.email "alice@example.com"
+
+Проверка настроек:
+	git config --list
+
+Просмотр содержимого файла (см. в гит):
+	cat ~/.gitconfig
+
+Настройки готовы. Теперь начнем отслеживать изменения.
+Создадим репозиторий:
+	git init
+Initialized empty Git repository in C:/Users/DuBiVoo/Desktop/Project/first/.git/
+
+Посмотрим что в папке в столбик:
+	ls -1 -a
+
+После созданного репозитория, зафиксируем файлы, которые уже есть:
+	git add. (точка - это текущая папка)
+Проверим состояние командой: git status
